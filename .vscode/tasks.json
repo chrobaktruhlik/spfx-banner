@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "serve",
+			"problemMatcher": [],
+			"label": "npm: serve",
+			"detail": "gulp bundle --custom-serve --max_old_space_size=4096 && fast-serve"
+		}
+	]
+}

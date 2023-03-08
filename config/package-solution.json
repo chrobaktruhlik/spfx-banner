@@ -1,0 +1,51 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "spfx-banner",
+        "id": "2be3aa32-6aa9-40de-bc1c-62829f9a0ba9",
+        "iconPath": "assets/section96x96.png",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": "Undefined-1.14.0"
+        },
+        "supportedLocales": [
+            "en-us",
+            "sk-sk"
+        ],
+        "metadata": {
+            "shortDescription": {
+                "default": "spfx-banner short description",
+                "sk-sk": "Krátky opis aplikácie."
+            },
+            "longDescription": {
+                "default": "This web part provides the ability to add a variable height image banner with a title and link.",
+                "sk-sk": "Táto webová časť poskytuje možnosť pridať obrázkový banner s premenlivou výškou s názvom a prepojením."
+            },
+            "screenshotPaths": [
+                "assets/screenshot1.jpg"
+            ],
+            "videoUrl": "",
+            "categories": [
+                "Site Design"
+            ]
+        },
+        "features": [
+            {
+                "title": "spfx-banner Feature",
+                "description": "The feature that activates elements of the spfx-banner solution.",
+                "id": "b52cdefc-5b9e-4358-9ab0-ece526bb7d58",
+                "version": "1.0.0.0"
+            }
+        ]
+    },
+    "paths": {
+        "zippedPackage": "solution/spfx-banner.sppkg"
+    }
+}

@@ -1,0 +1,49 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.banner {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    // font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    &:hover {
+        transform: scale(1.005);
+        filter: grayscale(25%);
+        // filter: blur(1px);
+    }
+    &:active {
+        transform: scale(0.995);
+        filter: grayscale(0);
+    }
+
+    .bannerImg {
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        // will-change: transform;
+    }
+
+    .bannerText {
+        @include ms-fontSize-32;
+        @include ms-fontWeight-semibold;
+        box-sizing: border-box;
+        color: #fff;
+        position: relative;
+        margin: 0 auto 12px auto;
+        // max-width: 1284px;
+        padding: 0 40px 5px;
+        width: 100%;
+        word-break: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;        // It will add three dots at the end of the trimmed line
+        display: -webkit-box;
+        /* autoprefixer: ignore next */ // https://github.com/postcss/autoprefixer/issues/776
+        -webkit-box-orient: vertical;   
+        -webkit-line-clamp: 2;          // Specify how many lines we want to show to the user
+    }
+}

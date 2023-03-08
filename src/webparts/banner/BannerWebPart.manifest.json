@@ -1,0 +1,45 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+    "id": "6e5ec1d1-bf69-45f2-ac1c-13c567dec95e",
+    "alias": "BannerWebPart",
+    "componentType": "WebPart",
+
+    // The "*" signifies that the version should be taken from the package.json
+    "version": "*",
+    "manifestVersion": 2,
+    
+    // If true, the component can only be installed on sites where Custom Script is allowed.
+    // Components that allow authors to embed arbitrary script code should set this to true.
+    // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+    "requiresCustomScript": false,
+    
+    "supportsFullBleed": true,
+    "supportedHosts": [
+        "SharePointWebPart",
+        "SharePointFullPage"
+    ],
+    
+    "supportsThemeVariants": true,
+    "hiddenFromToolbox": false,
+    "disabledOnClassicSharepoint": true, 
+    "preconfiguredEntries": [
+        {
+            "groupId": "cf066440-0614-43d6-98ae-0b31cf14c7c3",      // Text, media, and content
+            "title": {
+                "default": "Banner",
+                "sk-SK":   "Baner"
+            },
+            "description": {
+                "default": "Renders a banner style presentation with text and image.",
+                "sk-SK":   "Pridajte prepojenie v štýle baneru s textom a obrázkom."
+            },
+            "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5wMHFBY21e/oEQAAADNQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA88Ql8BVNTQAAAA90Uk5TAAIDTU5gYWJkfH1/gK2/yYWfsAAAAAFiS0dEEJWyDSwAAACISURBVDjL1ZNLDoAgDET5iFBB5v63dSMoWCImmuAsmoa8ZChDhRhUcraqrrNM/S4DuEs1qW9CFrAVdLVTzqnK7s3xNAVGNMkTs6Kh9aAmNKUztADRM4oAZcgDgbtqcR4aUHgM/daOgMhlVzym7omlK2AhNXHZFV/l272zqmfv3O3eMVCX3WDaAMeGErv5s5TvAAAAAElFTkSuQmCC",
+            "properties": {
+                "bannerText": "",       // Banner label
+                "bannerImage": "",      // Banner image
+                "bannerLink": "",       // Link to
+                "bannerHeight": ""      // Banner height
+            }
+        }
+    ]
+}
