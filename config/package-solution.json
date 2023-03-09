@@ -4,7 +4,7 @@
         "name": "spfx-banner",
         "id": "2be3aa32-6aa9-40de-bc1c-62829f9a0ba9",
         "iconPath": "assets/section96x96.png",
-        "version": "1.0.0.0",
+        "version": "1.0.1.0",
         "includeClientSideAssets": true,
         "skipFeatureDeployment": true,
         "isDomainIsolated": false,
