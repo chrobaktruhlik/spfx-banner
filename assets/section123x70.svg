@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="icon icon-tabler icon-tabler-section" width="123" height="70" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" version="1.1" viewBox="0 0 123 70" xmlns="http://www.w3.org/2000/svg">
+ <g stroke-width="3.8662">
+  <path d="m0 0h123v70h-123z" fill="none" stroke="none"/>
+  <path d="m102.5 58.333h0.0512"/>
+  <path d="m20.5 58.333h0.05125"/>
+  <path d="m41 58.333h0.05125"/>
+  <path d="m61.5 58.333h0.05126"/>
+  <path d="m82 58.333h0.05126"/>
+  <path d="m102.5 11.667h0.0512"/>
+  <path d="m20.5 11.667h0.05125"/>
+  <path d="m41 11.667h0.05125"/>
+  <path d="m61.5 11.667h0.05126"/>
+  <path d="m82 11.667v0.02917"/>
+  <path d="m20.5 23.333m0 2.9167a5.125 2.9167 0 0 1 5.125-2.9167h71.75a5.125 2.9167 0 0 1 5.125 2.9167v17.5a5.125 2.9167 0 0 1-5.125 2.9167h-71.75a5.125 2.9167 0 0 1-5.125-2.9167z"/>
+ </g>
+</svg>
